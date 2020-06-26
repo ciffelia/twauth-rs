@@ -1,0 +1,16 @@
+[package]
+name = "twauth-rs"
+version = "1.0.0"
+authors = ["Ciffelia <mc.prince.0203@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "1.1.1"
+actix-web = "2.0.0"
+serde = "1.0.114"
+serde_derive = "1.0.114"
+envy = "0.4.1"
+env_logger = "0.7.1"
+egg-mode = "0.15.0"
