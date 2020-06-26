@@ -12,7 +12,6 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           override: true
-          default: true
           toolchain: stable
           profile: minimal
 
@@ -39,7 +38,6 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           override: true
-          default: true
           toolchain: stable
           profile: minimal
           components: rustfmt
@@ -67,7 +65,6 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           override: true
-          default: true
           toolchain: stable
           profile: minimal
           components: clippy
